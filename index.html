@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focal - Carbon Theme</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-black text-white">
+
+    <!-- Header -->
+    <header class="flex items-center justify-between p-4 bg-gray-900">
+        <div class="text-xl font-bold">FOCAL</div>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="hover:text-yellow-500">Shop by Category</a></li>
+                <li><a href="#" class="hover:text-yellow-500">Shop by Device</a></li>
+                <li><a href="#" class="hover:text-yellow-500">Collections</a></li>
+                <li><a href="#" class="hover:text-yellow-500">Blog</a></li>
+                <li><a href="#" class="hover:text-yellow-500">United States (USD $)</a></li>
+            </ul>
+        </nav>
+        <div class="flex space-x-4">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+        </div>
+    </header>
+
+    <!-- Slider -->
+    <section class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide flex flex-col items-center justify-center align-center bg-gray-800 text-center" style="background-image: url('assets/download.jpg'); background-size: cover;">
+                <h2 class="text-4xl font-bold bg-gray-900 bg-opacity-50 p-2 rounded">NATIVE UNION X TOM DIXON</h2>
+                <a href="#" class="mt-4 px-6 py-2 bg-yellow-500 text-black font-bold rounded">LEARN MORE</a>
+            </div>
+            <div class="swiper-slide flex flex-col items-center justify-center bg-gray-800 text-center" style="background-image: url('assets/download.jfif'); background-size: cover;">
+                <h2 class="text-4xl font-bold bg-gray-900 bg-opacity-50 p-2 rounded">NATIVE UNION X TOM DIXON</h2>
+                <a href="#" class="mt-4 px-6 py-2 bg-yellow-500 text-black font-bold rounded">LEARN MORE</a>
+            </div>
+           
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

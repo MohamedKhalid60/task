@@ -1,0 +1,8 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+.swiper-slide {
+    height: 100vh; /* Adjust height as needed */
+    background-position: center;
+    background-repeat: no-repeat;
+}
